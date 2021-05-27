@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/lucid-header-background.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    
+    color: #fff;
+    position: relative;
+    paddin: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    background:#008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 47%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 47%;
+}
+.banner-content{
+    min-height: 90vh;
+    align-items: center;
+    position: relative;
+}
+.banner-content h5{
+    
+font-size: 16px;
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+letter-spacing: 2px;
+margin-bottom: 40px;
+}
+.banner-content h1{
+    
+color: #fff;
+margin-bottom: 40px;
+}
+.banner-content p{
+    
+color: #fff;
+margin-bottom: 20px;
+}
+.btn-download{
+color: #fff;
+background: #008ed6;
+padding: 0;
+padding: 10px 20px;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.btn-features{
+color: #fff;
+font-size: 14px;
+font-weight: 600;
+padding: 0;
+padding: 10px 20px;
+border:1px solid rgb(167, 165, 165);
+border-radius:5px;
+margin-left: 15px;
+}
+.btn-features:hover{
+    color: #fff;
+    background: #008ed6;
+   border-color: transparent;
+}
+.btn-download:hover{
+    color: #fff;
+    background: transparent;
+    border:1px solid rgb(167, 165, 165);
+}
+.phone{
+position: absolute;
+bottom: 0;
+}
+.phone img{
+    position: absolute;
+    left: 55%;
+    width: 38%;
+    bottom: 0;
+}
+
+  .heading{
+
+  }
+  .heading h1{
+
+    color: black;
+    
+    font-size: 35px;
+    }
+  
+  .heading h5{
+
+color: #008ed6;
+
+font-size: 16px;
+
+text-transform: uppercase;
+}
+
+ 
+.heading span{
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+  
+    position: relative;
+}
+
+.heading span::before{
+    content: '';
+    position:absolute;
+    height: 100%;
+    width:0%;
+    background: #008ed6;
+    left: 0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+.heading span::after{
+    content: '';
+    position:absolute;
+    height: 100%;
+    width: 0%;
+    background: #008ed6;
+    right: 0;
+    top: 0;
+    transition: .4s all ease-in-out;
+}
+
+.feature_section:hover .heading span::after{
+    width: 45%;
+}
+.feature_section:hover .heading span::before{
+    width: 45%;
+}
+
+
+
+
